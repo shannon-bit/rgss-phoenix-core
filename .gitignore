@@ -1,0 +1,5 @@
+.env
+credentials.json
+offline queues/
+logs/
+snapshots/
