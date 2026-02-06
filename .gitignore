@@ -1,5 +1,31 @@
+# Secrets / env
 .env
+config/.env
+*.env
+
+# Credentials
 credentials.json
-offline queues/
+config/credentials.json
+
+# Runtime state (never commit)
+data/watson_offline_queue.json
+data/offline_queue.json
+data/offlinequeue.json
+data/*.state
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# Logs & snapshots are runtime-only
 logs/
 snapshots/
+*.log
+
+# Python junk
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.envrc
